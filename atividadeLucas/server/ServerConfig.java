@@ -41,8 +41,7 @@ public class ServerConfig {
                     continue;
                 }
 
-                new Thread(
-                        new ServerThread(cliente, ipCliente, baseDeDados, limiteClientes)).start();
+                new Thread(new ServerThread(cliente, ipCliente, baseDeDados, limiteClientes)).start();
             }
 
         } catch (Exception e) {
