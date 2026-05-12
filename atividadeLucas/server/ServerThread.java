@@ -32,8 +32,7 @@ public class ServerThread implements Runnable {
 
             System.out.println("Cliente conectado: " + nomeCliente + " (" + ipCliente + ")");
 
-            escritor.println("Bem-vindo, " + nomeCliente
-                    + "! Perguntas: CLIMA, TEMPERATURA, UMIDADE, VENTO. Digite SAIR para encerrar.");
+            escritor.println("Bem-vindo, " + nomeCliente + "! Perguntas: CLIMA, TEMPERATURA, UMIDADE, VENTO. Digite SAIR para encerrar.");
 
             String msgCliente;
 
